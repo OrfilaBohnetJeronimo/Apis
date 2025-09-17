@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #0b3d91, #1e90ff);
+    background: linear-gradient(135deg, #181818, #020202);
     color: #fff;
     text-align: center;
 }
@@ -11,7 +11,7 @@ h1 {
     text-align: center;
     padding: 20px;
     margin: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(17, 17, 17, 0.4);
     font-size: 2.2rem;
     letter-spacing: 2px;
 }
@@ -20,7 +20,16 @@ h2 {
     text-align: center;
     margin-top: 30px;
     font-size: 1.5rem;
-    color: #ffeb3b;
+    color: #ffffff;
+}
+
+.text {
+    text-align: center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #ffffff;
 }
 
 input, button {
@@ -33,17 +42,18 @@ input, button {
 
 input {
     outline: none;
+    width: 5cm;
 }
 
 button {
-    background: #ff9800;
+    background: #000000;
     color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #e68900;
+    background: #000000;
 }
 
 section, div {
@@ -58,7 +68,7 @@ section, div {
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     padding: 15px;
     margin: 20px auto;
-    max-width: 350px;
+    max-width: 800px;
     transition: transform 0.2s;
 }
 
@@ -74,7 +84,7 @@ section, div {
 
 .card h3 {
     margin: 10px 0;
-    color: #0b3d91;
+    color: #000000;
 }
 
 .card p {

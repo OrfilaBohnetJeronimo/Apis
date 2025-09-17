@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA Fotos</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Fotos de la NASA</h1>
 
-    <h2>Foto del día</h2>
+<body>
+    <h1>NASA Photos</h1>
+
+    <p class="text">
+        On this page, you can see photos taken by NASA today, as well as photos from previous days, and
+        randomly select others based on APIs.
+        <br>
+        APIs are a set of functions and procedures that allow systems to be integrated, allowing their functionalities
+        to be reused by other applications or software.
+    </p>
+
+    <h2>Photo of the day</h2>
     <div id="fotoDelDia"></div>
 
-    <h2>Elegí una fecha</h2>
+    <h2>I chose a date</h2>
     <input type="date" id="fecha">
-    <button id="btnFecha">Ver foto</button>
+    <button id="btnFecha">See photo</button>
     <div id="fotoFecha"></div>
 
-    <h2>Fotos random</h2>
-    <input type="number" id="cantidad" placeholder="Cantidad" min="1" max="10">
-    <button id="btnRandom">Ver fotos</button>
+    <h2>Random photos</h2>
+    <input type="number" id="cantidad" placeholder="Amount" min="1" max="10">
+    <button id="btnRandom">See photo</button>
     <div id="fotosRandom"></div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

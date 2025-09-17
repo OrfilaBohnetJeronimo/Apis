@@ -27,7 +27,7 @@ document.getElementById('btnFecha').addEventListener('click', () => {
                 <h3>${data.title}</h3>
                 <img src="${data.url}" alt="${data.title}">
                 <p>${data.explanation}</p>
-                <p>Fecha: ${data.date}</p>
+                <p>Date: ${data.date}</p>
             </div>`;
         });
 });
@@ -48,7 +48,7 @@ document.getElementById('btnRandom').addEventListener('click', () => {
                     <h3>${f.title}</h3>
                     <img src="${f.url}" alt="${f.title}">
                     <p>${f.explanation}</p>
-                    <p>Fecha: ${f.date}</p>
+                    <p>Date: ${f.date}</p>
                 </div>`;
             });
             document.getElementById('fotosRandom').innerHTML = html;
