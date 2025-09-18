@@ -4,13 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Fotos</title>
+    <link rel="shortcut icon" href="./recursos/NASA_logo.png">
+    <title>NASA Photos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>NASA Photos</h1>
+    <nav style="display: flex; justify-content: space-between; align-items: center; background: rgba(17, 17, 17, 0.6); padding: 10px 20px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" 
+                 alt="NASA Logo" 
+                 style="width: 50px; height: auto;">
+            <h1 style="margin: 0; font-size: 1.8rem;">NASA Photos</h1>
+        </div>
 
+        <a href="rango.html">
+            <button class="rango">rank page</button>
+        </a>
+    </nav>
+
+    <h2>About the page</h2>
     <p class="text">
         On this page, you can see photos taken by NASA today, as well as photos from previous days, and
         randomly select others based on APIs.
