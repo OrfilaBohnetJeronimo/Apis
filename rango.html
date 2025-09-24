@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA Photos - Rango</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" 
+           alt="NASA Logo" 
+           class="logo">
+      <h1 class="title">NASA Photos</h1>
+    </div>
+
+    <div class="nav-right">
+      <a href="./index.html">
+        <button>Home</button>
+      </a>
+    </div>
+  </nav>
+
+  <p class="text">
+    Seleccioná un rango de fechas para ver las fotos que NASA publicó en la API 
+    entre el <b>16 de junio de 1995</b> y hoy.
+  </p>
+
+  <h2>Elegí un rango</h2>
+  <label for="fechaInicio">Desde:</label>
+  <input type="date" id="fechaInicio">
+  <label for="fechaFin">Hasta:</label>
+  <input type="date" id="fechaFin">
+  <button id="btnRango">Ver fotos</button>
+
+  <div id="fotosRango"></div>
+
+  <script src="rango.js"></script>
+</body>
+</html>
